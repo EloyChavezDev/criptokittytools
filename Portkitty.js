@@ -406,7 +406,7 @@ function getAllCats() {
   Object.keys(filters).forEach((key) => {
     filtersStr += `${key}=${filters[key]}`
   })
-  history.pushState({"owner": owner}, "Portfolio of "+owner, "/kittytoolbox/portfolio.html?owner="+owner+filtersStr);
+  history.pushState({"owner": owner}, "Portfolio of "+owner, "/cryptokittytools/portfolio.html?owner="+owner+filtersStr);
   setTimeout(()=>{getPortfolio(owner, hideLoading)}, 100)
 }
 
