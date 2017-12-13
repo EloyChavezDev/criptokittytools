@@ -1,4 +1,3 @@
-<script>
 const node = document.getElementById("kittyId");
 node.addEventListener('keydown', function(event) {
     if (event.key === "Enter") {
@@ -104,5 +103,3 @@ var c = function() {
         }
     });
 }();
-
-</script>
